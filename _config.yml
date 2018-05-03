@@ -16,8 +16,8 @@ minimal_mistakes_skin    : "air" #"default", "air", "aqua", "contrast", "dark", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : ""
-title_separator          : "-"
+title                    : " "
+title_separator          : " "
 name                     : "Jacob Heglund"
 description              : "A personal website made with Jekyll."
 url                      : https://jacob-heglund.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
