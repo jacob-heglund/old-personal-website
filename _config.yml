@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "air" #"default", "air", "aqua", "contrast", "dark", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jacob Heglund's Site"
+title                    : ""
 title_separator          : "-"
 name                     : "Jacob Heglund"
 description              : "A personal website made with Jekyll."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://jacob-heglund.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -98,11 +98,11 @@ analytics:
 # Site Author
 author:
   name             : "Jacob Heglund"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/bio_pic.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I'm graduating college soon!"
-  location         : "Urbana, IL"
-  email            :
-  uri              :
+  location         : jheglun2 {at} illinois.edu
+  email            : 
+  uri              : 
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
@@ -110,13 +110,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
-  gitlab           :
+  github           : jacob-heglund
+  gitlab           : 
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : jacobheglund # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
@@ -124,9 +124,9 @@ author:
   tumblr           :
   twitter          :
   vine             :
-  weibo            :
+  weibo            :  
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : https://www.youtube.com/user/BalthierTheNobody # "https://youtube.com/c/MichaelRoseDesign"
 
 
 # Reading Files
@@ -251,3 +251,44 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true  
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+
+
+
+
+
+      
