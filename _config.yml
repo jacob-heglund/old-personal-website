@@ -99,10 +99,10 @@ analytics:
 author:
   name             : "Jacob Heglund"
   avatar           : /assets/images/bio_pic.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I'm graduating college soon!"
+  bio              : "I'm going to grad school soon!"
   location         : jheglun2 {at} illinois.edu
   email            : 
-  uri              : 
+  uri              : https://thelightservice.bandcamp.com/
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
@@ -115,7 +115,7 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  lastfm           :
+  lastfm           :  
   linkedin         : jacobheglund # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
