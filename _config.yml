@@ -99,10 +99,10 @@ analytics:
 author:
   name             : "Jacob Heglund"
   avatar           : /assets/images/bio_pic.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I'm going to grad school soon!"
+  bio              : "I'm a grad student doing work with satellites, robots, and AI!"
   location         : jheglun2 {at} illinois.edu
   email            : 
-  uri              : https://thelightservice.bandcamp.com/
+  uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :

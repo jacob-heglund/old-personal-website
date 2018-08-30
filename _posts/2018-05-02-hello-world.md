@@ -14,6 +14,3 @@ print(myString)
 
 A "Hello World!" program can also be as simple as a line or two, but more creative programmers can figure out crazy ways to accomplish the simple goal of printing the 'string' "Hello World!" to the console.  For example, we could use a neural network that takes in a training set containing the string "Hello World!", and train it to produce this string.  There's no limit to the creative ways one can generate this string!
 
-
-
-
